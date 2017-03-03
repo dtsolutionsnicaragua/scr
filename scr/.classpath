@@ -2,5 +2,11 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="Libreria/commons-dbcp2-2.1.jar"/>
+	<classpathentry kind="lib" path="Libreria/commons-logging-1.1.2.jar"/>
+	<classpathentry kind="lib" path="Libreria/commons-pool2-2.4.1.jar"/>
+	<classpathentry kind="lib" path="Libreria/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="Libreria/JTattoo-1.6.11.jar"/>
+	<classpathentry kind="lib" path="Libreria/mysql-connector-java-5.1.12-bin.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

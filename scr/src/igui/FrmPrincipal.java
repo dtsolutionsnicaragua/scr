@@ -74,25 +74,6 @@ public class FrmPrincipal extends JFrame {
 	private JPopupMenu popupMenu_2;
 
 	public static void main(String[] args) {
-		try {
-			//javax.swing.plaf.nimbus.NimbusLookAndFeel
-			//com.sun.java.swing.plaf.windows.WindowsLookAndFeel
-			//com.apple.laf.AquaLookAndFeel
-			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-		} catch (Throwable e) {
-			e.printStackTrace();
-		}
-		/*EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					FrmPrincipal frame = new FrmPrincipal();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});*/
-		
 		javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
             	try {

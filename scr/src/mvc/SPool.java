@@ -18,5 +18,4 @@ public class SPool {
 		DataSource.setMaxTotal(25);
 		DataSource.setTimeBetweenEvictionRunsMillis(1000);
 	}
-
 }
